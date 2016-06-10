@@ -1,0 +1,79 @@
+<suite name="AdditionParamXML">
+    <test name="AdditionParamXMLTest">
+        <parameter name="firstValue"  value="99"/>
+        <parameter name="secondValue"  value="99"/>
+        <parameter name="result"  value="198"/>
+            <classes>
+                <class name="DDTUnitTest">
+                    <methods>
+                        <include name="xmlDDTTest" />
+                    </methods>
+                </class>
+            </classes>
+        </test>
+
+    <test name="AdditionXMLTest2">
+    <parameter name="firstValue"  value="0"/>
+    <parameter name="secondValue"  value="-1"/>
+    <parameter name="result"  value="-1"/>
+    <classes>
+        <class name="DDTUnitTest">
+            <methods>
+                <include name="xmlDDTTest" />
+            </methods>
+        </class>
+    </classes>
+    </test>
+
+    <test name="AdditionXMLTest3">
+        <parameter name="firstValue"  value="5"/>
+        <parameter name="secondValue"  value="5"/>
+        <parameter name="result"  value="10"/>
+        <classes>
+            <class name="DDTUnitTest">
+                <methods>
+                    <include name="xmlDDTTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="AdditionXMLTest4">
+        <parameter name="firstValue"  value="6"/>
+        <parameter name="secondValue"  value="2"/>
+        <parameter name="result"  value="8"/>
+        <classes>
+            <class name="DDTUnitTest">
+                <methods>
+                    <include name="xmlDDTTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="AdditionXMLTest5">
+        <parameter name="firstValue"  value="4"/>
+        <parameter name="secondValue"  value="16"/>
+        <parameter name="result"  value="20"/>
+            <classes>
+                <class name="DDTUnitTest">
+                    <methods>
+                        <include name="xmlDDTTest" />
+                    </methods>
+                </class>
+            </classes>
+    </test>
+
+    <test name="AdditionXMLTest6">
+        <parameter name="firstValue"  value="84"/>
+        <parameter name="secondValue"  value="1"/>
+        <parameter name="result"  value="85"/>
+            <classes>
+                <class name="DDTUnitTest">
+                    <methods>
+                        <include name="xmlDDTTest" />
+                    </methods>
+                </class>
+            </classes>
+    </test>
+</suite>

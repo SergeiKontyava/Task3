@@ -1,0 +1,17 @@
+<TestData>
+    <Test>
+        <FirstValue>100</FirstValue>
+        <SecondValue>200</SecondValue>
+        <Result>20000</Result>
+    </Test>
+    <Test>
+        <FirstValue>10</FirstValue>
+        <SecondValue>3</SecondValue>
+        <Result>30</Result>
+    </Test>
+    <Test>
+        <FirstValue>5</FirstValue>
+        <SecondValue>8</SecondValue>
+        <Result>40</Result>
+    </Test>
+</TestData>

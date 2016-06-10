@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+    <test name ="slow">
+        <classes>
+            <class name="MathematicsUnitTests">
+                <methods>
+                    <include name="additionShouldBeCorrect"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+    <test name ="slow">
+        <classes>
+            <class name="MathematicsUnitTests"/>
+            <class name="EmptyUnitTest"/>
+            <class name="ExceptionUnitTest"/>
+            <class name="TimeoutTest"/>
+        </classes>
+    </test>
+</suite>

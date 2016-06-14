@@ -15,8 +15,8 @@ public class FromFileTests {
     private Mathematics TestClass = new Mathematics();
 
     @Parameters
-    @Test(dataProvider = "additionData")
-    public void doStuff(String fileWithTests, int poolsize){
+    @Test(dataProvider = "testData")
+    public void doStuff(String fileWithTests, int poolsize, int firsvalue, int secondValue, int result){
         Properties properties = new Properties();
         InputStream inputStream = null;
 

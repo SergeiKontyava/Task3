@@ -110,7 +110,6 @@ public class DDTUnitTest {
     public static Object[][] getDataFromXmlFile(final Method testMethod) {
         XmlParameters parameters = testMethod.getAnnotation(XmlParameters.class);
         String[] fields = parameters.value();
-        //load just the fields you want
         return new Object[][] { { "FirstValue", "SecondValue", "Result" } };
     }
 
